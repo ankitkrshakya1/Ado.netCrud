@@ -54,6 +54,10 @@ namespace AdoCrudByme.Controllers
         {
             return View();
         }
+        public ActionResult about()
+        {
+            return View();
+        }
 
 
 

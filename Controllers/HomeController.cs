@@ -50,6 +50,10 @@ namespace AdoCrudByme.Controllers
                  db.deleteOld(id);
             return RedirectToAction("Index");   
         }
+        public ActionResult contact()
+        {
+            return View();
+        }
 
 
 
